@@ -64,6 +64,7 @@ body {
 	margin-top: 20px;
 }
 
+
 .purple-background{
 	background-color: hsl(256, 26%, 20%);
 }
@@ -218,4 +219,14 @@ footer {
 	border: .5px solid;
 	width: 80%;
 	margin: 0 auto;
+}
+
+.purple-hover:hover {
+	color: white;
+	background-color: hsl(270, 9%, 17%);
+}
+
+.white-hover:hover {
+	color: hsl(270, 9%, 17%);
+	background-color:  white;
 }
