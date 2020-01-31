@@ -6,6 +6,7 @@ body {
 	margin: 0 0;
 	width: 1440px;
 	/*background-color: hsl(0, 0%, 98%);*/
+	z-index: 2;
 }
 
 .top-row {
@@ -22,6 +23,7 @@ body {
 	/*background-color: yellow;*/
 	height: 50%;
 
+	/*background-color: white;*/
 }
 
 .link {
@@ -229,4 +231,22 @@ footer {
 .white-hover:hover {
 	color: hsl(270, 9%, 17%);
 	background-color:  white;
+}
+
+.top-right-graphic {
+	position: absolute;
+	left: 49%;
+	top: 0%;
+}
+
+.left-graphic {
+	position: absolute; 
+	left: 0;
+	bottom: 12%;
+}
+
+.lower-graphic {
+	position: absolute;
+	right: 30%;
+	z-index: 1;
 }
